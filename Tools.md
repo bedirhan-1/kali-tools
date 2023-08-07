@@ -745,6 +745,30 @@ Medusa, açık kaynaklı ve çok hızlı bir parola kırma aracıdır. Medusa, k
 
 <a href="http://foofus.net/?page_id=51" target="\_blank">Medusa</a>
 
+<hr>
+
+# Impackt-Scripts
+
+Impacket, Python programlama dilinde yazılmış açık kaynaklı bir ağ güvenlik araçları koleksiyonudur. Bu araçlar, ağ üzerindeki farklı protokollerle etkileşime geçmek ve güvenlik testleri yapmak için kullanılır. Impacket araçlarının içerisinde bir dizi script (betik) bulunmaktadır ve bu scriptler çeşitli ağ güvenlik testleri için kullanılmaktadır.
+
+İmpacket scriptleri, ağ üzerinde çeşitli protokollerle etkileşim sağlamak, kimlik doğrulama mekanizmalarını test etmek, saldırılar gerçekleştirmek ve sızma testleri yapmak için kullanılabilir.
+
+## Bazı yaygın Impacket scriptleri şunlardır:
+
+- smbclient.py: SMB (Server Message Block) protokolünü kullanarak SMB sunucularıyla etkileşim sağlar. Dosya paylaşımları, dosya aktarımları ve SMB sunucularını test etmek için kullanılır.
+
+- smbexec.py: Uzaktaki bir Windows makinesinde kod yürütmeyi sağlar. SMB aracılığıyla shell erişimi elde etmek için kullanılabilir.
+
+- lookupsid.py: SMB üzerinden SID (Security Identifier) çözümleme yaparak, bir kullanıcının veya grubun SID değerini elde etmeye yarar.
+
+- samrdump.py: Windows SAM (Security Account Manager) veritabanını çözer ve kullanıcı parolalarını elde etmek için kullanılır.
+
+- getArch.py: Uzaktaki Windows bilgisayarının mimarisini belirlemeye yardımcı olur.
+
+- secretsdump.py: Windows sistemlerinde yerel SAM veritabanını çözer ve kullanıcı kimlik bilgilerini elde etmek için kullanılır.
+
+- ticketer.py: Kerberos bileti oluşturmayı ve Kerberos yetkilendirmesi için kullanılır.
+
 <a href="https://github.com/ffuf/ffuf" target="\_blank">FFUF</a>
 <a href="https://github.com/ffuf/ffuf" target="\_blank">FFUF</a>
 <a href="https://github.com/ffuf/ffuf" target="\_blank">FFUF</a>
