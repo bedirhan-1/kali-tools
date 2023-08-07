@@ -747,7 +747,7 @@ Medusa, açık kaynaklı ve çok hızlı bir parola kırma aracıdır. Medusa, k
 
 <hr>
 
-# Impackt-Scripts
+# Impacket-Scripts
 
 Impacket, Python programlama dilinde yazılmış açık kaynaklı bir ağ güvenlik araçları koleksiyonudur. Bu araçlar, ağ üzerindeki farklı protokollerle etkileşime geçmek ve güvenlik testleri yapmak için kullanılır. Impacket araçlarının içerisinde bir dizi script (betik) bulunmaktadır ve bu scriptler çeşitli ağ güvenlik testleri için kullanılmaktadır.
 
@@ -769,15 +769,100 @@ Impacket, Python programlama dilinde yazılmış açık kaynaklı bir ağ güven
 
 - ticketer.py: Kerberos bileti oluşturmayı ve Kerberos yetkilendirmesi için kullanılır.
 
-<a href="https://github.com/ffuf/ffuf" target="\_blank">FFUF</a>
-<a href="https://github.com/ffuf/ffuf" target="\_blank">FFUF</a>
-<a href="https://github.com/ffuf/ffuf" target="\_blank">FFUF</a>
-<a href="https://github.com/ffuf/ffuf" target="\_blank">FFUF</a>
-<a href="https://github.com/ffuf/ffuf" target="\_blank">FFUF</a>
-<a href="https://github.com/ffuf/ffuf" target="\_blank">FFUF</a>
-<a href="https://github.com/ffuf/ffuf" target="\_blank">FFUF</a>
-<a href="https://github.com/ffuf/ffuf" target="\_blank">FFUF</a>
-<a href="https://github.com/ffuf/ffuf" target="\_blank">FFUF</a>
-<a href="https://github.com/ffuf/ffuf" target="\_blank">FFUF</a>
-<a href="https://github.com/ffuf/ffuf" target="\_blank">FFUF</a>
-<a href="https://github.com/ffuf/ffuf" target="\_blank">FFUF</a>
+<a href="https://www.kali.org/tools/impacket-scripts/" target="\_blank">Impacket Scripts from kali</a>
+
+<hr>
+
+# Dmitry
+
+Dmitry, açık kaynaklı bir istihbarat toplama aracıdır (OSINT - Open Source Intelligence). Dmitry, hedef bir alan adı veya IP adresi hakkında çeşitli bilgileri toplamak ve hedef sistemle ilgili açık kaynaklardan veri elde etmek için kullanılır. Bu araç, sızma testleri veya güvenlik değerlendirmeleri sırasında hedeflerle ilgili önemli bilgileri tespit etmek için siber güvenlik uzmanları ve etik hackerlar tarafından kullanılır.
+
+# Dmitry'nin temel özellikleri şunlardır:
+
+- Alan Adı ve IP Adresi Tarama: Dmitry, belirli bir alan adı veya IP adresi hakkında çeşitli bilgileri taramak için kullanılır. Bu, hedefle ilgili temel bilgileri elde etmeye yardımcı olur.
+
+- DNS Tarama: Dmitry, DNS (Domain Name System) bilgilerini ve DNS sunucularını taramak için kullanılabilir.
+
+- WHOIS Sorgusu: Dmitry, belirli bir alan adı veya IP adresiyle ilişkili WHOIS bilgilerini sorgulamak için kullanılabilir.
+
+- Port Tarama: Dmitry, belirli bir IP adresinde açık olan portları taramak için kullanılabilir.
+
+- E-posta Tarama: Dmitry, belirli bir alan adıyla ilişkili e-posta adreslerini taramak için kullanılabilir.
+
+- Subdomain Tarama: Dmitry, belirli bir alan adıyla ilişkili alt alan adlarını taramak için kullanılabilir.
+
+<a href="https://www.mor-pah.net/index.php?file=projects/dmitry" target="\_blank">Dmitry</a>
+
+<hr>
+
+# Dirbuster
+
+DirBuster, açık kaynaklı bir web dizini keşif aracıdır. Web sitelerinin veya web uygulamalarının dizinlerini taramak ve dizinlerdeki mevcut dosyaları keşfetmek için kullanılır. DirBuster, "Directory Buster" olarak da adlandırılır ve dizin keşfi için farklı sözlük saldırıları gerçekleştirir.
+
+## DirBuster'in temel özellikleri şunlardır:
+
+- Dizin Tarama: DirBuster, belirli bir hedef web sitesi veya web uygulamasında dizinleri taramak için kullanılır. Bu, açıkta kalmış dizinleri veya dosyaları tespit etmeye yardımcı olur.
+
+- Sözlük Saldırıları: DirBuster, dizin ve dosya adlarını belirli bir sözlük dosyasındaki kelimelerle karşılaştırarak keşfetmeye çalışır. Bu, yaygın kullanılan dosya adları veya dizin adlarını tarayarak hedefteki potansiyel güvenlik zafiyetlerini bulmayı sağlar.
+
+- Uzantı Filtreleme: DirBuster, belirli dosya uzantılarını filtreleyerek yalnızca belirli türdeki dosyaları taramak için kullanılabilir. Örneğin, sadece .php uzantılı dosyaları taramak gibi.
+
+<a href="https://owasp.org/projects/" target="\_blank">Dirbuster</a>
+
+Kaynak Kod: https://gitlab.com/kalilinux/packages/dirbuster
+
+<hr>
+
+# Airgeddon
+
+Airgeddon, kablosuz ağ güvenliği testleri için tasarlanmış bir açık kaynaklı kablosuz ağ saldırı aracıdır. Airgeddon, bir arayüz üzerinden kolayca yönetilebilen ve farklı kablosuz güvenlik saldırıları gerçekleştiren bir kablosuz ağ güvenlik test çerçevesidir. Birçok farklı kablosuz saldırı tekniğini destekler ve basit bir kullanıcı arayüzü üzerinden bu saldırıları gerçekleştirmeyi kolaylaştırır.
+
+## Airgeddon'ın temel özellikleri şunlardır:
+
+- WEP, WPA ve WPA2 Saldırıları: Airgeddon, WEP, WPA ve WPA2 gibi farklı kablosuz güvenlik protokollerini hedef alarak kablosuz ağları test etmeye yönelik çeşitli saldırıları gerçekleştirebilir.
+
+- Man-in-the-Middle Saldırıları: Airgeddon, kablosuz ağ üzerinde man-in-the-middle saldırıları yaparak ağ trafiğini izleme ve yönlendirme yeteneğine sahiptir.
+
+- Güvenlik Zafiyeti Taramaları: Airgeddon, kablosuz ağlar üzerinde güvenlik açıkları ve zafiyetleri taramak için çeşitli teknikler kullanır.
+
+- WPS Saldırıları: Airgeddon, WPS (Wi-Fi Protected Setup) güvenlik protokolünü hedef alarak kolayca şifre kırmayı deneyebilir.
+
+<a href="https://github.com/v1s1t0r1sh3r3/airgeddon" target="\_blank">Airgeddon</a>
+
+<hr>
+
+# Steghide
+
+Steghide, açık kaynaklı ve komut satırı tabanlı bir veri gizleme aracıdır. Steghide, bir medya dosyası (resim, ses veya video gibi) içine veri veya dosya gizlemek için kullanılır. Bu teknik, steganografi olarak bilinir ve verilerin görsel veya işitsel medya gibi diğer verilerin içine gizlenmesini sağlar.
+
+## Steghide'in temel özellikleri şunlardır:
+
+- Veri Gizleme: Steghide, bir kapak medya dosyası içine gizlemek istediğiniz verileri (metin veya dosyalar) gizlemenizi sağlar. Kapak dosya, genellikle görsel bir resim (JPEG, BMP, PNG) veya ses dosyası (WAV) olabilir.
+
+- Şifreleme Desteği: Steghide, gizlenen verileri şifreleyerek ek güvenlik sağlar. Bu sayede gizlenen verilere erişim için bir şifre gereklidir.
+
+- Parola Koruma: Steghide, gizlenen verilere erişimi sınırlandırmak için parola koruması eklemek için kullanılabilir.
+
+- Farklı Veri Türleri: Steghide, metin dosyaları, resim dosyaları veya herhangi bir dosyayı bir kapak medya dosyasına gizlemek için kullanılabilir.
+
+<a href="https://steghide.sourceforge.net/" target="\_blank">Steghide</a>
+
+<hr>
+
+# Parsero
+
+Parsero, açık kaynaklı bir web uygulama güvenlik tarayıcısıdır. Bu araç, web uygulamalarını tarayarak güvenlik açıklarını ve zafiyetleri tespit etmek için kullanılır. Parsero, web sitelerini otomatik olarak tarar ve farklı güvenlik açıklarını ve zayıf noktaları belirlemek için çeşitli testler yapar.
+
+## Parsero'nun temel özellikleri şunlardır:
+
+- Güvenlik Açıkları Tarayıcı: Parsero, web sitelerini otomatik olarak tarayarak yaygın güvenlik açıklarını ve zayıf noktaları tespit eder. Bu açıklar arasında SQL enjeksiyonu, XSS (Cross-Site Scripting), dizin tarama, dosya yüklemesi ve daha fazlası yer alabilir.
+
+- URL Tarayıcı: Parsero, belirtilen URL'leri veya bir alan adının altındaki tüm sayfaları tarayarak güvenlik açıklarını tespit eder.
+
+- Otomatik Tarama: Parsero, web uygulamalarını otomatik olarak tarayarak güvenlik testlerini gerçekleştirir ve sonuçları raporlar.
+
+- Basit ve Kullanıcı Dostu Arayüz: Parsero, kullanıcı dostu bir arayüze sahiptir ve kullanımı oldukça kolaydır.
+
+<a href="https://github.com/behindthefirewalls/Parsero" target="\_blank">Parsero</a>
+
+<hr>
