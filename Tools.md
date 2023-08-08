@@ -1045,6 +1045,388 @@ Bettercap, açık kaynaklı bir ağ güvenliği aracıdır ve ağ saldırıları
 
 <hr>
 
-<a href="https://github.com/projectdiscovery/subfinder" target="\_blank">Subfinder</a>
-<a href="https://github.com/projectdiscovery/subfinder" target="\_blank">Subfinder</a>
-<a href="https://github.com/projectdiscovery/subfinder" target="\_blank">Subfinder</a>
+# Whatweb
+
+WhatWeb, açık kaynaklı bir web uygulama analiz aracıdır ve hedef web siteleri hakkında bilgi toplamak ve analiz etmek için kullanılır. WhatWeb, web sitelerinin teknolojik altyapısını tespit etmek, kullanılan yazılımları belirlemek ve güvenlik zafiyetleri hakkında ipuçları elde etmek amacıyla kullanılır.
+
+## WhatWeb'in temel özellikleri şunlardır:
+
+- Teknolojik Altyapı Tespiti: WhatWeb, hedef web sitesinin kullanılan web sunucusu, çerçeve çalıştırma sistemleri, veritabanları, programlama dilleri gibi teknolojik altyapısını tespit eder.
+
+- Yazılım Sürümleri: WhatWeb, web sitesinde kullanılan yazılımların sürüm bilgilerini tespit edebilir. Bu, güvenlik açıkları hakkında bilgi sahibi olmanıza yardımcı olabilir.
+
+- Sunucu Bilgileri: WhatWeb, web sunucusunun ve ağ altyapısının bilgilerini tespit edebilir.
+
+- Robot Dosyaları ve Dizin Yapıları: WhatWeb, web sitesinin robot.txt dosyasını ve dizin yapısını analiz edebilir.
+
+- Bağlantılar ve URL Yapıları: WhatWeb, web sitesindeki bağlantıları ve URL yapısını analiz edebilir.
+
+<a href="https://morningstarsecurity.com/research/whatweb" target="\_blank">Whatweb</a>
+
+<hr>
+
+# Spiderfoot
+
+SpiderFoot, açık kaynaklı bir istihbarat toplama (OSINT) aracıdır. Bu araç, bir hedef hakkında çeşitli açık kaynaklardan (web siteleri, sosyal medya, DNS kayıtları, IP adresleri, alan adları vb.) bilgi toplamak ve analiz etmek için kullanılır. SpiderFoot, hedefle ilgili verileri derlemek, kategorize etmek ve görselleştirmek amacıyla kullanılır.
+
+SpiderFoot'ın temel özellikleri şunlardır:
+
+Geniş Veri Kaynağı Desteği: SpiderFoot, çeşitli veri kaynaklarına (web siteleri, WHOIS bilgileri, DNS kayıtları, IP adresleri, sosyal medya profilleri vb.) erişerek veri toplar.
+
+Veri Analizi ve Görselleştirme: SpiderFoot, toplanan verileri analiz eder, ilişkilendirir ve görselleştirir, böylece daha iyi anlayış elde edebilirsiniz.
+
+Modüler Yapı: SpiderFoot, farklı veri kaynaklarına yönelik modüller içerir. Bu modüller sayesinde istediğiniz veriyi toplayabilirsiniz.
+
+Entegrasyon: SpiderFoot, diğer araçlar veya hizmetlerle entegre edilebilir ve toplanan istihbaratı diğer araçlarla işlemek için kullanabilirsiniz.
+
+<a href="https://intel471.com/solutions/attack-surface-protection" target="\_blank">Spiderfoot</a>
+
+<hr>
+
+# Scapy
+
+Scapy, Python programlama dili ile yazılmış bir ağ paket manipülasyon aracıdır. Bu araç, ağ paketleri oluşturmanıza, göndermenize, analiz etmenize ve karşılıklı etkileşimde bulunmanıza imkan tanır. Scapy, ağ protokollerini anlamak, ağ trafiği analizi yapmak, ağ güvenliği testleri yapmak ve ağ uygulamalarını geliştirmek için kullanılabilir.
+
+Scapy'nin temel özellikleri şunlardır:
+
+Paket Oluşturma ve Gönderme: Scapy, farklı ağ protokollerine uygun olarak özelleştirilmiş ağ paketleri oluşturmanıza ve göndermenize imkan tanır.
+
+Ağ Trafik Analizi: Scapy, ağdaki trafiği dinleyebilir ve analiz edebilir. Bu, ağ protokollerini daha iyi anlamak ve güvenlik açıklarını tespit etmek için kullanılabilir.
+
+Ağ Keşfi: Scapy, ağda bulunan cihazları tespit etmek ve cihazlar arasındaki iletişimi incelemek için kullanılabilir.
+
+Protokol İşlemesi: Scapy, farklı ağ protokollerini işlemek ve ayrıştırmak için kullanılabilir. Bu, protokollerin nasıl çalıştığını daha iyi anlamak için faydalı olabilir.
+
+<a href="https://scapy.net/" target="\_blank">Scapy</a>
+
+<hr>
+
+# Reaver
+
+Reaver, kablosuz ağların güvenlik protokolü olan WPS (Wi-Fi Protected Setup) üzerindeki zafiyetleri kullanarak kablosuz ağ şifrelerini kırmak amacıyla kullanılan bir araçtır. WPS, Wi-Fi ağlarına cihazlarını hızlıca eklemek için kullanılan bir protokoldür. Ancak, bazı WPS uygulamaları zafiyetler içerebilir ve bu zafiyetleri kötü niyetli kişiler WPS PIN kodlarını tahmin ederek veya keşfederek kullanabilir.
+
+Reaver, WPS PIN kodlarını tahmin ederek kablosuz ağlara erişmeye çalışır. Temel olarak, araç WPS PIN kodlarını ardışık olarak deneyerek geçerli bir PIN kodu bulmaya çalışır. Bu işlem, WPS'deki zafiyetler nedeniyle hedef ağın güvenliğini tehlikeye atabilir.
+
+Kablosuz ağlara izinsiz erişim sağlamak veya izinsiz olarak şifre kırmak yasa dışıdır ve ciddi yasal sonuçlar doğurabilir. Reaver gibi araçlar yalnızca etik ve yasal sınırlar içinde kullanılmalıdır, yani kendi ağlarınızda veya yasal izinlere sahip olduğunuz ağlar üzerinde test yapmak için kullanılmalıdır. Başkalarının ağlarına izinsiz olarak saldırmak veya şifre kırmak yasa dışıdır ve ciddi suç teşkil eder.
+
+<a href="https://github.com/t6x/reaver-wps-fork-t6x" target="\_blank">Reaver</a>
+
+<hr>
+
+# Rainbowcrack
+
+RainbowCrack, çok hızlı ve etkili bir şekilde çeşitli kriptografik hash fonksiyonlarını (MD5, SHA-1, NTLM vb.) kırma amacıyla kullanılan bir araçtır. Bu araç, ön hesaplama (precomputation) adı verilen bir yöntem kullanarak büyük veri tablolarını oluşturarak hash değerlerini çözmek için kullanılır.
+
+RainbowCrack'in temel çalışma prensibi, önceden hesaplanmış bir tabloyu (rainbow table) kullanarak hash değerlerini çözmektir. Rainbow table, bir örnek veri kümesini kapsayan ve önceden hesaplanmış hash değerlerinin depolandığı bir veritabanıdır. Bu tablolar, önceden hesaplamayı gerektirir ve disk alanı gereksinimi yüksektir, ancak hash çözme işlemini hızlandırır.
+
+RainbowCrack gibi araçlar, hash değerlerini çözmek, parola kırma saldırıları yapmak veya güvenlik zafiyetlerini tespit etmek gibi yasal nedenlerle kullanılabilir. Ancak, bu tür araçlar yalnızca kendi sistemleriniz veya yasal izinlere sahip olduğunuz sistemler üzerinde kullanılmalıdır. Başkalarının hash değerlerini izinsiz olarak çözmek veya parola kırmak yasa dışıdır ve ciddi yasal sonuçlar doğurabilir. RainbowCrack gibi araçları yalnızca etik ve yasal sınırlar içinde kullanmak önemlidir.
+
+<a href="http://project-rainbowcrack.com/index.htm" target="\_blank">Rainbowcrack</a>
+
+<hr>
+
+# Netdiscover
+
+Netdiscover, açık kaynaklı bir ağ keşif aracıdır ve ağdaki cihazları tespit etmek için kullanılır. Bu araç, ağda bulunan IP adreslerini ve MAC adreslerini tespit ederek ağdaki cihazların listesini oluşturmanıza yardımcı olur. Netdiscover, ağ trafiği dinlemek ve taramak suretiyle ağdaki cihazları bulabilir.
+
+## Netdiscover'ın temel özellikleri şunlardır:
+
+- IP ve MAC Adreslerini Tespit Etme: Netdiscover, ağdaki cihazların IP ve MAC adreslerini tespit eder.
+
+- Pasif ve Aktif Tarama: Netdiscover, hem pasif tarama (dinleme) hem de aktif tarama (ARP paketleri gönderme) yöntemlerini kullanarak ağdaki cihazları tespit edebilir.
+
+- Görselleştirme ve Çıktı: Netdiscover, tespit edilen cihazları listeleyebilir ve bunları terminalde görüntüleyebilir.
+
+- Çeşitli Tarama Modları: Netdiscover, tek bir IP adresinden bütün ağa kadar geniş bir tarama yapabilir.
+
+<a href="https://github.com/netdiscover-scanner/netdiscover" target="\_blank">Netdiscover</a>
+
+<hr>
+
+# Lynis
+
+Lynis, açık kaynaklı bir güvenlik denetim aracıdır ve Linux ve UNIX tabanlı sistemlerde kullanılan bir dizi güvenlik denetimi ve zafiyet taraması yapmak için kullanılır. Bu araç, sistemdeki güvenlik açıklarını tespit etmek, sistem yapılandırmasını değerlendirmek ve olası riskleri belirlemek amacıyla kullanılır.
+
+## Lynis'in temel özellikleri şunlardır:
+
+- Güvenlik Denetimleri: Lynis, sistemde güvenlik denetimleri gerçekleştirerek güvenlik açıklarını ve riskleri tespit eder. Örnek olarak dosya izinleri, ağ ayarları, kullanıcı hesapları, güvenlik yazılımları ve daha fazlasını denetleyebilir.
+
+- Zafiyet Taraması: Lynis, bilinen güvenlik açıklarını ve zafiyetleri taramak için kullanılabilir.
+
+- Raporlama: Lynis, denetim sonuçlarını ayrıntılı bir rapor halinde sunar. Bu rapor, sistem yöneticilerinin güvenlik konularını anlamalarına ve gerekli düzeltmeleri yapmalarına yardımcı olabilir.
+
+- Özelleştirilebilir Denetimler: Lynis, sistem yöneticilerinin istedikleri denetimleri özelleştirmelerine izin verir.
+
+<a href="https://cisofy.com/lynis/" target="\_blank">Lynis</a>
+
+<hr>
+
+# Fcrackzip
+
+fcrackzip, ZIP dosyalarının şifrelerini kırmak için kullanılan bir araçtır. Bu araç, brute-force (kaba kuvvet) saldırıları yaparak ZIP dosyalarının koruma şifrelerini deneyerek doğru şifreyi tahmin etmeye çalışır. Eğer bir ZIP dosyasının şifresini unuttuysanız veya izinli bir şekilde şifresini çözmek istiyorsanız, fcrackzip gibi araçları kullanabilirsiniz.
+
+## fcrackzip'in temel özellikleri şunlar olabilir:
+
+- Kaba Kuvvet Saldırıları: fcrackzip, kaba kuvvet saldırıları yaparak ZIP dosyalarının şifrelerini deneyerek tahmin eder. Bu işlem, tüm olası kombinasyonları deneyerek şifreyi çözmeye çalışır.
+
+- Sözlük Saldırıları: fcrackzip, belirli bir sözlük (wordlist) dosyasını kullanarak şifre kırma girişimleri yapabilir. Bu yöntem, yaygın kullanılan şifreleri veya tahmin edilebilir şifreleri denemek için kullanılabilir.
+
+- Özelleştirilebilir Parametreler: fcrackzip, saldırı hızını, karakter setini, şifre uzunluğunu ve diğer parametreleri özelleştirmenize olanak tanır.
+
+<a href="http://oldhome.schmorp.de/marc/fcrackzip.html" target="\_blank">Fcrackzip</a>
+
+<hr>
+
+# Dnsrecon
+
+Dnsrecon, açık kaynaklı bir DNS keşif ve bilgi toplama aracıdır. Bu araç, DNS sunucularını sorgulayarak alan adları hakkında bilgi toplar, DNS kayıtlarını analiz eder ve DNS altyapısını incelemek için kullanılır. Dnsrecon, DNS tabanlı saldırıların tespit edilmesi, DNS yapılandırmasının anlaşılması ve DNS güvenliği analizlerinin yapılması için kullanılabilir.
+
+## Dnsrecon'in temel özellikleri şunlar olabilir:
+
+- Alan Adı Analizi: Dnsrecon, alan adlarının alt alanlarını ve ilgili DNS kayıtlarını tespit etmek ve analiz etmek için kullanılabilir.
+
+- Reverse DNS Çözümlemesi: Dnsrecon, IP adreslerini alan adlarına dönüştürerek ters DNS çözümlemesi yapabilir.
+
+- DNS Sunucu Keşfi: Dnsrecon, hedef sistemdeki DNS sunucularını tespit etmek ve analiz etmek için kullanılabilir.
+
+- Güvenlik Analizi: Dnsrecon, hedef alan adının DNS güvenliği açısından değerlendirilmesine yardımcı olabilir. Örneğin, açık rekürsif DNS sunucularını tespit edebilir.
+
+<a href="https://github.com/darkoperator/dnsrecon" target="\_blank">Dnsrecon</a>
+
+<hr>
+
+# Socat
+
+Socat (SOcket CAT), Linux ve UNIX tabanlı sistemlerde kullanılan bir komut satırı aracıdır. Socat, çeşitli ağ bağlantıları ve veri akışlarını oluşturmak, yönlendirmek ve manipüle etmek için kullanılır. Bu araç, farklı türlerdeki soketleri (TCP, UDP, Unix, SSL vb.) birbirine bağlamak ve veri transferi yapmak amacıyla kullanılır.
+
+## Socat'in temel özellikleri şunlar olabilir:
+
+- Veri Transferi: Socat, dosya, soket veya cihaz arasında veri transferi yapabilir. Örneğin, bir dosyanın içeriğini bir sokete veya bir soketten başka bir dosyaya aktarabilir.
+
+- Soketler Arası Bağlantı: Socat, farklı türdeki soketleri birbirine bağlamak için kullanılabilir. Örneğin, TCP soketini bir Unix soketine yönlendirebilir.
+
+-Proxy ve Yönlendirme: Socat, ağ bağlantılarını yönlendirebilir veya proxy olarak kullanabilir. Örneğin, bir portu bir uzak sunucuya yönlendirebilir veya ağ trafiğini bir proxy sunucusu aracılığıyla iletebilir.
+
+- Dosya İşlemleri: Socat, dosya okuma, yazma ve dönüşüm işlemleri yapabilir. Bu, dosyaları manipüle etmek veya veri formatlarını değiştirmek için kullanılabilir.
+
+<a href="http://www.dest-unreach.org/socat/" target="\_blank">Socat</a>
+
+<hr>
+
+# Rkhunter
+
+RKHunter (Rootkit Hunter), açık kaynaklı bir güvenlik aracıdır ve Linux sistemlerde rootkit taraması ve kötü niyetli yazılımların tespiti için kullanılır. RKHunter, sistemde potansiyel güvenlik tehditlerini tespit etmek ve zararlı yazılımları bulmak amacıyla tasarlanmıştır. Rootkitler, sistemde gizlenen ve yetkisiz erişim sağlayan zararlı yazılımlardır.
+
+## RKHunter'ın temel özellikleri şunlar olabilir:
+
+- Rootkit Taraması: RKHunter, sistemde potansiyel rootkitleri taramak ve tespit etmek için kullanılır. Bu, gizli kötü amaçlı yazılımları bulmaya yardımcı olur.
+
+- Dosya ve Dizin Kontrolü: RKHunter, sistem dosyalarını ve dizinlerini kontrol eder, değiştirilmiş veya zarar görmüş dosyaları tespit edebilir.
+
+- Yönlendirilmiş Dosya Kontrolü: RKHunter, yönlendirilmiş dosyaları (symlink) kontrol ederek potansiyel riskleri değerlendirebilir.
+
+- Sistem Güvenlik Kontrolleri: RKHunter, güvenlik açısından önemli dosyaları ve sistem ayarlarını denetler.
+
+- Güvenlik Raporları: RKHunter, tarama sonuçlarını ayrıntılı bir rapor halinde sunar ve potansiyel güvenlik tehditlerini belirtir.
+
+<a href="https://rkhunter.sourceforge.net/" target="\_blank">Rkhunter</a>
+
+<hr>
+
+# Redeye
+
+Redeye, açık kaynaklı bir güvenlik aracıdır ve Linux sistemlerde güvenlik açıklarını taramak için kullanılır. Redeye, sistemdeki güvenlik açıklarını taramak ve tespit etmek için tasarlanmıştır. Bu araç, sistemdeki güvenlik açıklarını tespit etmek ve kapatmak için kullanılabilir.
+
+## Redeye'nin temel özellikleri şunlar olabilir:
+
+- Güvenlik Açığı Taraması: Redeye, sistemdeki güvenlik açıklarını taramak ve tespit etmek için kullanılır. Bu, sistemdeki güvenlik açıklarını tespit etmeye yardımcı olur.
+
+- Sistem Güvenlik Kontrolleri: Redeye, sistem güvenliği açısından önemli dosyaları ve sistem ayarlarını denetler.
+
+- Güvenlik Raporları: Redeye, tarama sonuçlarını ayrıntılı bir rapor halinde sunar ve potansiyel güvenlik tehditlerini belirtir.
+
+<a href="https://github.com/redeye-framework/Redeye" target="\_blank">Redeye</a>
+
+<hr>
+
+# Nuclei
+
+Nuclei, açık kaynaklı bir güvenlik aracıdır ve hedef web uygulamalarını otomatik olarak tarayarak potansiyel güvenlik açıkları ve zafiyetleri tespit etmeye yardımcı olur. Nuclei, temel olarak önceden tanımlanmış şabloları (templates) kullanarak hedef web uygulamasını sorgular ve cevapları analiz eder. Bu sayede web uygulamalarındaki güvenlik hatalarını ve eksiklikleri tespit edebilirsiniz.
+
+## Nuclei'nin temel özellikleri şunlar olabilir:
+
+- Template Tabanlı Tarama: Nuclei, önceden tanımlanmış şablonlar (templates) kullanarak hedef web uygulamasını taramak için tasarlanmıştır. Bu şablonlar, farklı güvenlik açıkları, zafiyetler ve güvenlik kontrolleri için tasarlanmıştır.
+
+- Otomatik Tarama: Nuclei, otomatik olarak şablonları hedef URL'lerine uygular, cevapları analiz eder ve potansiyel güvenlik açıklarını belirler.
+
+- Genişletilebilirlik: Kullanıcılar, özel şablonlar oluşturarak ve mevcut şablonları özelleştirerek Nuclei'yi ihtiyaçlarına uygun şekilde genişletebilir.
+
+- Çıktı ve Raporlama: Nuclei, tarama sonuçlarını ayrıntılı bir şekilde sunar ve güvenlik açıkları hakkında bilgi veren raporlar oluşturabilir.
+
+<a href="https://github.com/projectdiscovery/nuclei" target="\_blank">Nuclei</a>
+
+<hr>
+
+# Macchanger
+
+macchanger, Linux ve UNIX tabanlı sistemlerde kullanılan bir araçtır ve ağ arayüzünün (NIC) MAC adresini değiştirmek için kullanılır. MAC adresi, ağ arayüzüne benzersiz bir kimlik atar ve ağdaki cihazları tanımlamak için kullanılır. macchanger, MAC adresini rastgele bir değerle değiştirme veya özelleştirilmiş bir değer atama gibi seçenekler sunar.
+
+## macchanger'in temel özellikleri şunlar olabilir:
+
+- Rastgele MAC Adresi: macchanger, rastgele üretilmiş bir MAC adresini ağ arayüzüne atamak için kullanılabilir. Bu, anonimlik sağlama veya iz bırakmama amaçları için kullanılabilir.
+
+- Özel MAC Adresi: macchanger, kullanıcının belirlediği bir MAC adresini ağ arayüzüne atamak için kullanılabilir. Bu, özel tanımlanmış MAC adreslerini kullanmak isteyen kullanıcılar için faydalı olabilir.
+
+- Arayüz Analizi: macchanger, sistemde bulunan ağ arayüzlerini listeler ve kullanıcının seçim yapmasına olanak tanır.
+
+<a href="https://github.com/alobbs/macchanger" target="\_blank">Macchanger</a>
+
+<hr>
+
+# Httrack
+
+HTTrack, açık kaynaklı bir web sitesi indirme ve çevrimdışı tarama aracıdır. Bu araç, bir web sitesinin içeriğini tamamen veya kısmen indirerek çevrimdışı olarak görüntülemenizi sağlar. HTTrack, özellikle tamamıyla çevrimdışı bir kopya oluşturmanız gereken durumlar veya web sitesi içeriğini araştırmak için kullanılabilir.
+
+## HTTrack'in temel özellikleri şunlar olabilir:
+
+- Web Sitesi İndirme: HTTrack, belirli bir web sitesinin tüm sayfalarını, resimlerini, videolarını ve diğer içeriklerini indirir.
+
+- Bağlantıları İzleme: HTTrack, web sitesindeki bağlantıları takip ederek derinlemesine tarama yapabilir. Bu sayede içeriklerin bağlantılarını da indirebilir.
+
+- Yapıyı Koruma: HTTrack, orijinal web sitesinin yapısını korur ve içerikleri düzgün bir şekilde düzenler.
+
+- Çevrimdışı Tarama: HTTrack ile indirilen web sitesini çevrimdışı olarak görüntüleyebilirsiniz, böylece internet erişimi olmadan bile içeriği gözden geçirebilirsiniz.
+
+<a href="http://www.httrack.com/" target="\_blank">Httrack</a>
+
+<hr>
+
+# Ghidra
+
+Ghidra, ABD Ulusal Güvenlik Ajansı (NSA) tarafından geliştirilen ve ardından 2019 yılında açık kaynak olarak yayımlanan güçlü bir tersine mühendislik aracıdır. Ghidra, yazılımın iç yapısını anlama, kod analizi yapma ve bileşenlerini inceleme konularında yardımcı olan bir araçtır. Ghidra, özellikle kötü amaçlı yazılım analizi, güvenlik açığı tespiti ve kod inceleme için kullanılır.
+
+## Ghidra'nın temel özellikleri şunlar olabilir:
+
+- Tersine Mühendislik: Ghidra, derlenmiş (compiled) kodu kaynak koduna çevirerek yazılımın iç yapısını anlamaya yardımcı olur. Bu, yazılımın nasıl çalıştığını ve ne yaptığını anlamak için kullanılır.
+
+- Çoklu Platform Desteği: Ghidra, farklı platformlar üzerinde çalışan yazılımları analiz etmek için kullanılabilir. Bu, farklı işletim sistemleri veya cihazlar için yazılmış yazılımları incelemeye olanak sağlar.
+
+- Kod Analizi: Ghidra, yazılımın kodunu analiz ederek değişkenleri, fonksiyonları ve akışı anlama konusunda yardımcı olur.
+
+- Grafik Tabanlı Gösterim: Ghidra, yazılımın iç yapısını grafik tabanlı gösterimlerle sunar, böylece karmaşık kodun daha anlaşılır olmasını sağlar.
+
+<a href="https://github.com/NationalSecurityAgency/ghidra" target="\_blank">Ghidra</a>
+
+<hr>
+
+# Foremost
+
+Foremost, açık kaynaklı bir veri kurtarma aracıdır ve silinmiş veya kaybolmuş dosyaları kurtarmak için kullanılır. Bu araç, depolama cihazlarında (diskler, USB sürücüler, bellek kartları vb.) silinmiş veya bozulmuş dosyaların içeriğini tarar ve bu dosyaları kurtarmaya çalışır. Foremost, dosya türlerine göre tarama yapabilir ve kurtarılabilir dosyaları belirli bir hedef dizinine kaydedebilir.
+
+## Foremost'in temel özellikleri şunlar olabilir:
+
+- Dosya Türüne Göre Kurtarma: Foremost, belirli dosya türlerine (örneğin, JPEG, PDF, DOC vb.) göre tarama yaparak bu dosyaları kurtarmaya çalışır.
+
+- Hedef Dizin Ayarı: Foremost, kurtarılan dosyaları belirli bir hedef dizinine kaydedebilir, böylece kullanıcılar daha sonra bu dosyaları inceleyebilir.
+
+- Bellek Kartları ve Disklerde Kurtarma: Foremost, depolama cihazlarındaki veri kaybını gidermek için kullanılabilir. Özellikle bellek kartları veya sabit diskler üzerindeki kayıp dosyaları kurtarmak için etkili olabilir.
+
+- Özelleştirilebilir Ayarlar: Foremost, dosya imzası belirleme ve tarama algoritmasını özelleştirmenize olanak tanır.
+
+<a href="https://sourceforge.net/projects/foremost/" target="\_blank">Foremost</a>
+
+<hr>
+
+# Dnsenum
+
+Dnsenum, açık kaynaklı bir DNS bilgi toplama aracıdır. Bu araç, bir alan adının DNS altyapısını analiz ederek hedef hakkında ayrıntılı bilgi toplamayı amaçlar. DNSenum, alt alan taraması, DNS kayıt analizi ve DNS güvenliği değerlendirmesi gibi işlemler için kullanılır.
+
+## Dnsenum'in temel özellikleri şunlar olabilir:
+
+- Alt Alan Taraması: Dnsenum, hedef alan adının alt alanlarını taramak için kullanılabilir. Bu sayede hedef alan adının altında hangi alt alanların bulunduğunu belirlemek mümkün olabilir.
+
+- DNS Kayıt Analizi: Dnsenum, DNS kayıtlarını analiz ederek hedefin DNS altyapısı hakkında bilgi toplar. A, MX, NS ve diğer DNS kayıtları hakkında bilgi sağlayabilir.
+
+- Zone Transfer Denemesi: Dnsenum, hedef DNS sunucularında zone transfer denemesi yapabilir ve mevcut alan adı bilgilerini alabilir.
+
+- Güvenlik Analizi: Dnsenum, DNS güvenliği açısından zayıf konfigürasyonları ve açıkları belirlemek için kullanılabilir.
+
+<a href="https://github.com/SparrowOchon/dnsenum2" target="\_blank">Dnsenum</a>
+
+<hr>
+
+# Wordlists
+
+"Wordlists" veya "word lists", genellikle parola kırma ve güvenlik testleri gibi amaçlar için kullanılan metin dosyalarıdır. Bu dosyalar, kullanıcı adları, parolalar, kelime kombinasyonları, yaygın ifadeler, sözcükler ve sayılar gibi farklı öğeleri içerebilir. Wordlist'ler, parola kırma araçları veya güvenlik test araçları tarafından kullanılarak otomatik olarak deneme ve tahmin yapılabilir.
+
+## Wordlist'lerin kullanım alanları şunlar olabilir:
+
+- Parola Kırma: Wordlist'ler, zayıf veya yaygın olarak kullanılan parolaları deneyerek hesapları ele geçirmek veya parolaları çözmek için kullanılır.
+
+- Brute-Force Saldırıları: Wordlist'ler, brute-force (kaba kuvvet) saldırıları için kullanılır. Bu tür saldırılarda tüm olası kombinasyonlar denendiğinden, wordlist'ler kullanarak deneme sayısını azaltmak mümkün olabilir.
+
+- Güvenlik Testleri: Wordlist'ler, güvenlik test araçları tarafından web siteleri, uygulamalar veya sistemler üzerinde güvenlik açıkları aramak için kullanılır.
+
+- Ağ Analizi: Wordlist'ler, ağ tarama araçları tarafından kullanılarak hedef ağdaki hedef cihazlar veya hizmetler hakkında bilgi toplamak için kullanılabilir.
+
+<a href="https://gitlab.com/kalilinux/packages/wordlists" target="\_blank">Wordlists</a>
+
+<hr>
+
+# Sublist3r
+
+Sublist3r, açık kaynaklı bir alt alan tarama (subdomain enumeration) aracıdır. Bu araç, bir hedef alan adının alt alanlarını (subdomain) tespit etmek için kullanılır. Sublist3r, birden fazla veri kaynağına sorgu atarak hedef alan adının alt alanlarını bulmayı amaçlar. Bu, güvenlik analizi, hedef keşfi ve sızma testleri gibi senaryolarda kullanılabilir.
+
+## Sublist3r'ın temel özellikleri şunlar olabilir:
+
+- Birden Fazla Veri Kaynağı: Sublist3r, hedef alan adının alt alanlarını bulmak için birden fazla veri kaynağına sorgu atar. Bu, daha geniş bir alt alan taraması yapmanıza yardımcı olabilir.
+
+- Hızlı Tarama: Sublist3r, alt alanları hızlı bir şekilde tespit etmek için tasarlanmıştır.
+
+- Güvenlik Testleri: Sublist3r, güvenlik analizi ve sızma testleri gibi senaryolarda kullanılarak hedef alan adının yüzeyini tarayabilir.
+
+- Özelleştirilebilir Ayarlar: Kullanıcılar, tarama süresi, veri kaynakları ve diğer ayarları özelleştirebilir.
+
+<a href="https://github.com/aboul3la/Sublist3r" target="\_blank">Sublist3r</a>
+
+<hr>
+
+# Sslstrip
+
+SSLStrip, güvenli iletişimi (HTTPS) zayıf veya güvensiz iletişime (HTTP) dönüştüren bir saldırı aracıdır. Bu araç, bir ağ trafiğini dinleyerek HTTPS bağlantılarını HTTP bağlantılarına dönüştürebilir ve bu sayede kullanıcıların iletişimini şifrelenmemiş bir şekilde ele geçirebilir. SSLStrip, man-in-the-middle (MitM) saldırılarında ve güvenlik zafiyetlerinin değerlendirilmesinde kullanılır.
+
+## SSLStrip'in temel özellikleri şunlar olabilir:
+
+- HTTPS Bağlantıları İzleme: SSLStrip, ağ üzerindeki trafiği izleyerek HTTPS bağlantıları tespit eder.
+
+- HTTPS Bağlantılarını Kırma: SSLStrip, HTTPS bağlantılarını HTTP bağlantılarına dönüştürür, böylece kullanıcılar şifrelenmemiş iletişim yapmış gibi görünür.
+
+- HSTS Atlatma: Bazı web siteleri HSTS (HTTP Strict Transport Security) kullanarak güvenli bağlantıları zorlar. SSLStrip, HSTS mekanizmasını atlatarak güvenli bağlantıları kırabilir.
+
+- Oturum Bilgileri Çalma: SSLStrip, kullanıcıların oturum bilgilerini (kullanıcı adı, parola vb.) şifrelenmemiş olarak ele geçirebilir.
+
+<a href="https://github.com/L1ghtn1ng/sslstrip" target="\_blank">Sslstrip</a>
+
+<hr>
+
+# Set
+
+"SET" olarak kısaltılan "Social Engineering Toolkit", açık kaynaklı bir güvenlik aracıdır ve sosyal mühendislik saldırıları gerçekleştirmek için kullanılır. Bu araç, hedef kullanıcıları manipüle ederek hassas bilgileri çalmayı veya sistemlere erişim sağlamayı amaçlayan saldırıları otomatize etmeye yardımcı olur. SET, güvenlik profesyonellerinin ve etik hackerların hedeflerine karşı savunma mekanizmalarını test etmek için kullanıldığı bir araçtır.
+
+## SET'in temel özellikleri şunlar olabilir:
+
+- Sosyal Mühendislik Saldırıları: SET, hedeflerin güvenlik bilincini aşarak sosyal mühendislik saldırıları gerçekleştirmek için kullanılır. Örneğin, phishing (oltalama) saldırıları ve kötü amaçlı bağlantılar yoluyla hedef kullanıcıları manipüle etmek amacıyla kullanılabilir.
+
+- Otomatize Edilmiş Saldırılar: SET, saldırı senaryolarını otomatize ederek saldırganlara hedeflere karşı daha hızlı ve etkili bir şekilde saldırma olanağı sunar.
+
+- Çeşitli Saldırı Modülleri: SET, phishing, tabanlı saldırılar, virüs bulaştırma gibi farklı saldırı modüllerini içerir.
+
+- Eğitim Amaçlı Kullanım: SET, güvenlik uzmanlarına, etik hackerlara ve güvenlik eğitimcilerine sosyal mühendislik saldırılarını daha iyi anlamak ve savunmada nasıl karşı koyulacağını öğrenmek için eğitim imkanı sunar.
+
+<a href="https://github.com/alobbs/macchanger" target="\_blank">Set</a>
+
+<hr>
+
+<a href="https://github.com/alobbs/macchanger" target="\_blank">Macchanger</a>
+<a href="https://github.com/alobbs/macchanger" target="\_blank">Macchanger</a>
+<a href="https://github.com/alobbs/macchanger" target="\_blank">Macchanger</a>
