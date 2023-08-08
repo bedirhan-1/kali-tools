@@ -866,3 +866,185 @@ Parsero, açık kaynaklı bir web uygulama güvenlik tarayıcısıdır. Bu araç
 <a href="https://github.com/behindthefirewalls/Parsero" target="\_blank">Parsero</a>
 
 <hr>
+
+# Metagoofil
+
+Metagoofil, açık kaynaklı bir istihbarat toplama aracıdır (OSINT - Open Source Intelligence). Bu araç, belirli bir hedef alan adı veya IP adresi hakkında çeşitli metaveri ve belgeleri toplamak için kullanılır. Metagoofil, hedefle ilgili açık kaynaklardan gelen verileri toplamak ve analiz etmek amacıyla güvenlik uzmanları ve sızma test uzmanları tarafından kullanılır.
+
+## Metagoofil'ün temel özellikleri şunlardır:
+
+- Dosya İndirme: Metagoofil, belirtilen hedef alan adı veya IP adresi için çeşitli belge türlerini (örneğin, PDF, DOC, XLS) indirerek metaveri ve içerikleri analiz eder.
+
+- Metaveri Analizi: Metagoofil, indirilen belgelerin metaverilerini (örneğin, yazar adı, oluşturma tarihi, değiştirme tarihi) analiz eder ve bu verileri raporlar.
+
+- Görsel Analiz: Metagoofil, belgelerin içinde görsel medya dosyalarını taramak ve analiz etmek için kullanılabilir.
+
+- Veri Sızdırma Tespiti: Metagoofil, belirli bir alan adıyla ilişkili belgelerde veri sızdırma durumlarını tespit etmeye yardımcı olabilir.
+
+<a href="https://github.com/opsdisk/metagoofil" target="\_blank">Metagoofil</a>
+
+<hr>
+
+# Hping3
+
+hping3, açık kaynaklı ve komut satırı tabanlı bir ağ test aracıdır. hping3, çeşitli ağ protokollerini test etmek, paketler göndermek ve almak, ağ performansını değerlendirmek ve ağ güvenliği testleri yapmak için kullanılır. hping3, TCP/IP ve diğer ağ protokollerini daha düşük seviyede manipüle etmek için kullanılabilir.
+
+## hping3'ün temel özellikleri şunlardır:
+
+- Paket Oluşturma ve Gönderme: hping3, özelleştirilmiş ağ paketleri oluşturabilir ve belirli hedeflere göndererek ağdaki tepkileri test edebilir.
+
+- Paket Analizi: hping3, gönderilen veya alınan ağ paketlerini analiz ederek ağdaki durumu ve tepkileri inceleyebilir.
+
+- DoS (Denial of Service) Saldırıları: hping3, DoS saldırılarına benzer saldırıları simüle edebilir ve ağın tepkisini inceleyerek ağ güvenliğini test edebilir.
+
+- Port Tarama: hping3, belirli hedeflerdeki portların açık veya kapalı olduğunu taramak için kullanılabilir.
+
+- Firewall Testleri: hping3, ağ güvenlik duvarlarını veya ağ filtrelerini test etmek için kullanılabilir.
+
+<a href="http://www.hping.org/" target="\_blank">Hping3</a>
+
+<hr>
+
+# Commix
+
+Commix, açık kaynaklı bir komut enjeksiyon test aracıdır. Bu araç, web uygulamalarında komut enjeksiyon zafiyetlerini tespit etmek ve bu zafiyetleri test etmek için kullanılır. Komut enjeksiyonu, web uygulamalarının dışardan veri girdisi alırken bu girdileri yetersiz şekilde işlemesi sonucu oluşan bir güvenlik açığıdır. Bu tür zafiyetler, siber saldırganların hedef sistemde komutları çalıştırmasına izin verir.
+
+## Commix'in temel özellikleri şunlardır:
+
+- Komut Enjeksiyon Testi: Commix, web uygulamalarında komut enjeksiyonu zafiyetlerini tespit etmek ve bu zafiyetleri test etmek için çeşitli teknikler kullanır.
+
+- Farklı Komut Yürütme Yöntemleri: Commix, farklı komut yürütme yöntemlerini kullanarak komutları hedef web uygulamasında çalıştırmaya çalışır.
+
+- Parametre Testi: Commix, hedef web uygulamasının parametrelerine komut enjekte ederek zafiyetleri tespit etmeye yardımcı olur.
+
+- Otomatik ve El ile Test Modları: Commix, otomatik olarak komut enjeksiyon zafiyetlerini taramak veya el ile belirli parametreleri test etmek için kullanılabilir.
+
+<a href="https://commixproject.com/" target="\_blank">commix</a>
+
+<hr>
+
+# CeWL (Custom Word List Generator)
+
+Cewl (Custom Word List Generator), açık kaynaklı bir araçtır ve çeşitli kaynaklardan özelleştirilmiş kelime listeleri oluşturmak için kullanılır. Bu kelime listeleri, saldırılar sırasında parola kırma, saldırı sözlüğü oluşturma veya güvenlik testleri yapma gibi amaçlar için kullanılabilir.
+
+## Cewl'ün temel özellikleri şunlardır:
+
+- Kelime Listesi Oluşturma: Cewl, belirli bir web sitesi veya metin kaynağı üzerinden özelleştirilmiş kelime listeleri oluşturur. Bu, hedefin dilini, konusunu veya içeriğini dikkate alarak daha etkili kelime listeleri oluşturmayı sağlar.
+
+- Web Sitelerini Tarama: Cewl, belirtilen bir web sitesini taramak ve web sitesindeki metni analiz ederek kelime listeleri oluşturmak için kullanılır.
+
+- Filtreleme ve Temizleme: Cewl, oluşturulan kelime listelerini filtreleyebilir ve gereksiz veya istenmeyen kelimeleri temizleyebilir.
+
+<a href="https://github.com/digininja/CeWL" target="\_blank">CeWL</a>
+
+<hr>
+
+# Assetfinder
+
+Assetfinder, açık kaynaklı bir araçtır ve bir hedef alan adının altında bulunan alt alan adlarını ve altyapı bileşenlerini (varlık) keşfetmek için kullanılır. Bu tür varlıklar, sızma testleri sırasında veya güvenlik değerlendirmeleri yaparken hedef alan adının yüzeyini taramak için kullanılır.
+
+## Assetfinder'ın temel özellikleri şunlardır:
+
+- Alt Alan Adı Taraması: Assetfinder, belirtilen bir hedef alan adının altında bulunan alt alan adlarını tarar ve bu alt alan adlarını listeleyebilir.
+
+- Altyapı Bileşenleri: Assetfinder, hedef alan adının altında bulunan IP adreslerini, web sunucularını, DNS sunucularını ve diğer altyapı bileşenlerini taramak için kullanılır.
+
+- Aktif Varlıkları Bulma: Assetfinder, hedef alan adının altında aktif olarak bulunan varlıkları (örneğin, erişilebilir web siteleri) bulmak için kullanılabilir.
+
+<a href="https://github.com/tomnomnom/assetfinder" target="\_blank">Assetfinder</a>
+
+<hr>
+
+# Subfinder
+
+Subfinder, açık kaynaklı bir alt alan adı keşif aracıdır. Bu araç, belirli bir hedef alan adının altında bulunan alt alan adlarını taramak ve keşfetmek için kullanılır. Subfinder, alt alan adlarını taramak ve bulmak için birden fazla alt alan adı kaynağını kullanarak geniş bir alt alan adı keşfi sağlar.
+
+## Subfinder'ın temel özellikleri şunlardır:
+
+- Alt Alan Adı Taraması: Subfinder, belirtilen bir hedef alan adının altında bulunan alt alan adlarını taramak için farklı kaynaklardan yararlanır.
+
+- Birden Fazla Kaynak Kullanımı: Subfinder, farklı alt alan adı veritabanlarını ve DNS kaynaklarını kullanarak alt alan adlarını keşfetmeye çalışır.
+
+- Sonuçları Birleştirme: Subfinder, farklı kaynaklardan gelen alt alan adı sonuçlarını birleştirir ve kullanıcıya sunar.
+
+- Alt Alan Adı Doğrulama: Subfinder, keşfedilen alt alan adlarını DNS sorguları yaparak doğrular.
+
+<a href="https://github.com/projectdiscovery/subfinder" target="\_blank">Subfinder</a>
+
+<hr>
+
+# Recon-ng
+
+Recon-ng, açık kaynaklı bir keşif ve istihbarat toplama aracıdır (OSINT - Open Source Intelligence). Bu araç, çeşitli kaynaklardan veri toplayarak hedef hakkında bilgi toplamak ve analiz etmek için kullanılır. Recon-ng, sosyal medya profilleri, alan adları, IP adresleri, e-posta adresleri ve diğer açık kaynak verileri üzerinden istihbarat toplamak için kullanılır.
+
+## Recon-ng'nin temel özellikleri şunlardır:
+
+- Kaynaklar ve Modüller: Recon-ng, çeşitli kaynaklardan (API'lar, veritabanları, halka açık veri kaynakları) veri toplamak için farklı modülleri içerir.
+
+- API Entegrasyonu: Recon-ng, popüler sosyal medya platformları, alan adı kaynakları ve diğer veri sağlayıcılarıyla entegre olabilir.
+
+- Otomatik ve El ile Veri Toplama: Recon-ng, veriyi otomatik olarak toplayabileceğiniz gibi el ile belirli hedefler veya kaynaklar üzerinde de veri toplayabilir.
+
+- Sonuçları Analiz Etme: Recon-ng, toplanan veriyi analiz etmek ve hedef hakkında daha fazla bilgi çıkarmak için kullanılabilir.
+
+<a href="https://github.com/lanmaster53/recon-ng" target="\_blank">Recon-ng</a>
+
+<hr>
+
+# GoldenEye
+
+GoldenEye, açık kaynaklı bir yük testi aracıdır ve bir hedef web sitesine aşırı yükleme yaparak site performansını test etmek için kullanılır. Bu tür yük testleri, web sitesinin trafik yoğunluğuna dayanıklılığını ve tepki sürelerini değerlendirmek amacıyla yapılır.
+
+## GoldenEye'nin temel özellikleri şunlardır:
+
+- HTTP Flood Saldırıları: GoldenEye, hedef web sitesine HTTP flood saldırıları yaparak yüksek miktarda istek gönderir. Bu, hedef web sitesinin sunucu kaynaklarını tüketmeye ve performansını düşürmeye çalışır.
+
+- Basit Kullanım: GoldenEye'nin kullanımı oldukça basittir ve komut satırından kolayca çalıştırılabilir.
+
+- Özelleştirilebilir Parametreler: GoldenEye, saldırı parametrelerini özelleştirmenize izin verir. Bu sayede saldırının yoğunluğunu, hızını ve hedefleri ayarlayabilirsiniz.
+
+- Doğrulama ve Analiz: GoldenEye, saldırı sonuçlarını analiz etmek ve hedef web sitesinin tepki sürelerini değerlendirmek için kullanılabilir.
+
+<a href="https://github.com/jseidl/GoldenEye" target="\_blank">GoldenEye</a>
+
+<hr>
+
+# Fern-Wifi-Cracker
+
+Fern Wifi Cracker, açık kaynaklı bir kablosuz ağ saldırı aracıdır. Bu araç, kablosuz ağlara yönelik güvenlik zafiyetlerini tespit etmek ve bu ağları güvenlik açısından değerlendirmek için kullanılır. Fern Wifi Cracker, sızma testleri sırasında kablosuz ağ güvenliği konusunda testler yapmak amacıyla kullanılabilir.
+
+## Fern Wifi Cracker'ın temel özellikleri şunlardır:
+
+- WEP, WPA, WPA2 Kırma: Fern Wifi Cracker, WEP, WPA ve WPA2 gibi yaygın kablosuz güvenlik protokollerini hedef alarak şifre kırma saldırıları gerçekleştirebilir.
+
+- Otomatik ve El ile Saldırılar: Fern Wifi Cracker, şifre kırma saldırılarını otomatik olarak gerçekleştirebileceği gibi kullanıcı tarafından özelleştirilebilecek manuel saldırı seçenekleri de sunar.
+
+- WPS Saldırıları: Fern Wifi Cracker, WPS (Wi-Fi Protected Setup) protokolünün zafiyetlerini kullanarak kablosuz ağları hedef alabilir.
+
+- WPA/WPA2 El Sıkışma Saldırıları: Fern Wifi Cracker, WPA/WPA2 el sıkışma aşamalarını kaydedebilir ve ardından çeşitli yöntemlerle şifre kırma girişimlerinde bulunabilir.
+
+<a href="https://github.com/savio-code/fern-wifi-cracker" target="\_blank">Fern-Wifi-Cracker</a>
+
+<hr>
+
+# Bettercap
+
+Bettercap, açık kaynaklı bir ağ güvenliği aracıdır ve ağ saldırıları gerçekleştirmek, ağ trafiğini analiz etmek ve ağdaki güvenlik zafiyetlerini tespit etmek için kullanılır. Bettercap, özellikle kablosuz ağlarda ve Ethernet ağlarında çeşitli saldırılar yapmak ve ağ trafiğini izlemek için kullanılır.
+
+## Bettercap'in temel özellikleri şunlardır:
+
+- Ağ Saldırıları: Bettercap, ağdaki cihazlara yönelik çeşitli saldırılar gerçekleştirebilir. Örneğin, ARP zehirleme saldırıları, DHCP saldırıları, DNS zehirleme ve daha fazlasını gerçekleştirebilir.
+
+- Ağ Trafiği Analizi: Bettercap, ağ trafiğini izleyebilir, analiz edebilir ve gelen veya giden verileri görüntüleyebilir.
+
+- SSLstrip ve HSTS Bypass: Bettercap, SSL bağlantılarını izlemek ve SSLstrip gibi saldırıları gerçekleştirmek için kullanılabilir. Ayrıca, HSTS (HTTP Strict Transport Security) gibi güvenlik mekanizmalarını bypass etmeye yardımcı olabilir.
+
+- Web Arayüzü: Bettercap, basit ve kullanıcı dostu bir web arayüzüne sahiptir, böylece kullanıcılar komut satırı kullanmadan aracı yönetebilirler.
+
+<a href="https://www.bettercap.org/" target="\_blank">Bettercap</a>
+
+<hr>
+
+<a href="https://github.com/projectdiscovery/subfinder" target="\_blank">Subfinder</a>
+<a href="https://github.com/projectdiscovery/subfinder" target="\_blank">Subfinder</a>
+<a href="https://github.com/projectdiscovery/subfinder" target="\_blank">Subfinder</a>
